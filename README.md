@@ -23,8 +23,8 @@ This API allows for CRUD operations on vehicle data, leveraging modern technolog
 
 1. **Clone the repository**:
    ```sh
-   git clone <repository-url>
-   cd vehicles
+   git clone https://github.com/HelterSardeiro/vehicles-api
+   cd vehicles-api
    ```
 
 2. **Install dependencies**:
