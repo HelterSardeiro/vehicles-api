@@ -1,0 +1,45 @@
+{
+  "name": "vehicles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "start:dev": "tsnd --ignore watchIgnoreConfig=.tsndignore src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsc --project tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-typescript": "^7.24.7",
+    "@types/express": "^4.17.14",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^18.11.13",
+    "@types/supertest": "^6.0.2",
+    "@types/validator": "^13.7.10",
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0",
+    "babel-jest": "^29.7.0",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "prettier": "^2.8.1",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.4",
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^4.12.1",
+    "validator": "^13.7.0",
+    "vehicles": "file:"
+  }
+}
