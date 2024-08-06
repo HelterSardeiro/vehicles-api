@@ -35,7 +35,7 @@ This API allows for CRUD operations on vehicle data, leveraging modern technolog
 3. **Configuration**:
    Create a `.env` file in the root directory of the project and add the following environment variables:
    ```env
-   MONGO_URI=mongodb+srv://vehiclesfrengee:K50p3p0IQkTukghS@vehicles.orrweus.mongodb.net/?retryWrites=true&w=majority&appName=vehicles
+   MONGO_URI=<URI>
    PORT=8080
    FIRST_VEHICLE=1886
    ```
