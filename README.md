@@ -92,7 +92,7 @@ This will execute the test suite, including integration tests for all API endpoi
 
 2. **Ensure you have a `.env` file** in the root of your project with the following content:
    ```env
-   MONGO_URI=mongodb+srv://vehiclesfrengee:K50p3p0IQkTukghS@vehicles.orrweus.mongodb.net/?retryWrites=true&w=majority&appName=vehicles
+   MONGO_URI=<URI>
    PORT=8080
    FIRST_VEHICLE=1886
    ```
